@@ -18,7 +18,7 @@ from dalle.utils.utils import set_seed, clip_score
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-n', '--num_candidates', type=int, default=96)
+parser.add_argument('-n', '--num_candidates', type=int, default=16)
 parser.add_argument('--prompt', type=str, default='A painting of a tree on the ocean')
 parser.add_argument('--softmax-temperature', type=float, default=1.0)
 parser.add_argument('--top-k', type=int, default=256)
